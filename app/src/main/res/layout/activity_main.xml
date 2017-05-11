@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.alphadude.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/cal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="CALCULATOR"
+        android:textAllCaps="true"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="opencal"
+         />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAllCaps="true"
+        android:text="GUESS THE FLAG"
+        android:background="@color/colorAccent"
+        android:onClick="openflag"
+         />
+    <TextView
+        android:id="@+id/empty1"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAllCaps="true"
+        android:text="EMPTY"
+        android:background="@color/colorPrimaryDark"
+        android:onClick=""
+        />
+    <TextView
+        android:id="@+id/empty2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAllCaps="true"
+        android:text="EMPTY"
+        android:background="@color/colorAccent"
+        android:onClick=""
+         />
+
+
+
+</LinearLayout>
